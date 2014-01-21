@@ -9,3 +9,5 @@ So for a 3 x 4 tile, it could look like so:
   ....
   **.*
 3. Profit! It will return the number of surrounding tiles that have a mine for the locations where a mine does not exist.
+
+
