@@ -45,7 +45,6 @@ end
 
 puts 'loaded! Insert a board size'
 array_size = gets.split
-puts "array_sizes: #{array_size}"
 
 @rows = array_size[0].to_i
 @columns = array_size[1]
@@ -57,8 +56,9 @@ end
 
 
 output = Minesweeper.sweep_for_mines(@array)
-puts "output:: #{output}"
-puts "@array:: #{@array}"
+#puts "output:: #{output}"
+#puts "@array:: #{@array}"
+puts ""
 
 for x in 0..output.length - 1
 	output_str = ""
